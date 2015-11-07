@@ -2,11 +2,11 @@ from puzzle import *
 from nodes import *
 
 stack = []
-mymatrix=[[1,5,0],[7,4,3],[8,2,6]]
+mymatrix=[[5,1,3,4],[0,2,6,8],[9,10,7,12],[13,14,11,15]]
 stack2 = [mymatrix]
 lista = []
-final = [[1,2,3],[4,5,6],[7,8,0]]
-limit = 30
+final = [[1,2,3,4],[5,6,7,8],[9,10,11,12],[13,14,15,0]]
+limit = 17
 resul = ''
 encontrado = False
 node = Nodo(mymatrix)
